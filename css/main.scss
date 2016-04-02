@@ -445,7 +445,7 @@ body > #wrapper {
   padding-bottom: 75px; }
 
 #footer {
-  background: transparent url(/images/bottom_border.png) repeat-x bottom;
+  background: transparent url({{ site.github.url }}/images/bottom_border.png) repeat-x bottom;
   position: relative;
   /* negative value of footer height */
   margin-top: -75px;
@@ -463,7 +463,7 @@ body:before {
   margin-top: -32767px; }
 
 body {
-  background: #eeebd9 url(/images/top_border.png) repeat-x;
+  background: #eeebd9 url({{ site.github.url }}/images/top_border.png) repeat-x;
   font-family: serif;
   font-size: 20px; }
 
